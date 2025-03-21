@@ -8,24 +8,28 @@ export const Hero = () => {
      
             
 
-            <div className=" basis-6/12 flex flex-col bg-black p-10">
+            <div className=" basis-6/12 flex flex-col bg-black p-10 max-lg:p-4">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-5xl md:text-6xl lg:text-8xl font-bold leading-tight "
+              className="text-4xl md:text-6xl lg:text-8xl font-bold leading-tight max-lg:text-center"
             >
               De la adversidad <br />
-              <span className="bg-clip-text text-transparent bg-gradient-to-l from-white to-slate-400">
-                al éxito
-              </span>
             </motion.h1>
+              <motion.span
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="bg-clip-text text-transparent bg-gradient-to-l from-white to-slate-400 text-4xl md:text-6xl lg:text-8xl font-bold leading-tight max-lg:text-center">
+                al éxito
+              </motion.span>
     
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-2xl md:text-3xl mt-6 "
+              className="text-2xl md:text-3xl max-lg:text-center mt-6 "
             >
               Mi historia de transformación y crecimiento
             </motion.h2>
@@ -34,7 +38,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-lg md:text-xl text-zinc-300 mt-4  max-w-lg"
+              className="text-lg md:text-xl text-zinc-300 mt-4  lg:max-w-lg max-lg:w-full max-lg:text-center"
             >
               De trabajador en una pizzería a fundador de múltiples negocios
               exitosos. Descubre cómo convertí mis fracasos en mi mayor fortaleza.
