@@ -1,26 +1,74 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media (min-width:1024px ){
+  .img{
+      mask-image: linear-gradient(to left, black 80% ,transparent);
   }
+  
+
+}
+@media (min-width:1024px ){
+          
+  .joya{
+    mask-image: linear-gradient(to left, #1d293d  80% ,transparent);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+@media (min-width:1024px ){
+  .image{
+     mask-image: linear-gradient(to left, #1447e6 80% ,transparent);
+ }  
+}
+
+.copy{
+  border-top: 1px solid #909090;
+}
+
+
+
+.scroll-section-outer {
+  overflow: hidden;
+}
+
+.scroll-section-inner {
+
+  width: 400vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+}
+
+.scroll-section-inner article {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  transition: 0.3s ;
+}
+@media (max-width:760px ){
+    .scroll-section-inner article{
+      height: 100%;
+    }
+}
+
+.scroll-section-inner article > h3 > p, .lista {
+  opacity: 0;
+}
+.scroll-section-inner:hover article {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7); /* Oscurece la imagen */
+  background-blend-mode: multiply; /* Mezcla el color con la imagen */
+}
+
+.scroll-section-inner:hover article h3{
+  opacity: 1;
+}
+
+.scroll-section-inner:hover article p{
+  opacity: 1;
+}
+.scroll-section-inner:hover .lista{
+  opacity: 1;
 }
