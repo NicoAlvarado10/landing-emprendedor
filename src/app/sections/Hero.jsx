@@ -1,68 +1,100 @@
-import Image from "next/image";
 import { motion } from "framer-motion";
+import heroImg from "../../../public/hero.webp"
 export const Hero = () => {
   return (
-    <section className="text-white w-full bg-gradient-to-r from-black to-slate-800 ">
-      <div className="grid w-full grid-cols-2 max-md:gap-12 max-lg:grid-cols-1 max-w-[1800px] mx-auto max-lg:gap-8 max-sm:gap-6">
-        {/* Texto */}
-        <div className="px-12 max-md:px-4 flex flex-col justify-center">
-          <div className="flex flex-col">
+    <section className="text-white w-full  bg-black h-full
+    ">
+          <div className="flex flex-row-reverse max-lg:grid-cols-1  max-lg:flex-col max-w-[1600px]  mx-auto justify-between ">
+     
+            
+
+            <div className=" basis-6/12 flex flex-col bg-black p-10">
             <motion.h1
-               initial={{ opacity: 0, y: 20 }}
-               whileInView={{ opacity: 1, y: 0 }}
-               transition={{ duration: 0.8 }}
-             className=" text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white max-lg:text-center max-lg:pt-8">
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="text-5xl md:text-6xl lg:text-8xl font-bold leading-tight "
+            >
               De la adversidad <br />
               <span className="bg-clip-text text-transparent bg-gradient-to-l from-white to-slate-400">
                 al éxito
               </span>
             </motion.h1>
-
+    
             <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8,delay:0.2 }}
-            className=" text-3xl max-sm:text-2xl mb-6 text-white max-lg:text-center">
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="text-2xl md:text-3xl mt-6 "
+            >
               Mi historia de transformación y crecimiento
             </motion.h2>
-
+    
             <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay:0.4 }}
-            className="text-xl md:text-2xl hero-descp text-zinc-300 max-lg:text-center">
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="text-lg md:text-xl text-zinc-300 mt-4  max-w-lg"
+            >
               De trabajador en una pizzería a fundador de múltiples negocios
-              exitosos. Descubre cómo convertí mis fracasos en mi mayor
-              fortaleza.
+              exitosos. Descubre cómo convertí mis fracasos en mi mayor fortaleza.
             </motion.p>
-
-            <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay:0.6 }}
-            className="my-10 flex items-center max-lg:justify-center">
-              <a
-                className="a bg-white hover:scale-105 transition duration-150 tracking-wider hover:bg-slate-300 text-black py-3 px-6 rounded-md xl:text-xl max-sm:text-sm max-lg:text-lg"
-                href="#"
-              >
-                Descubre mi historia
-              </a>
-            </motion.div>
+          </div> 
+              
+          <img
+                className="img basis-6/12 w-full h-screen object-cover oscuro"
+                src={heroImg.src}
+                alt="Imagen de Barbershop"
+              />
+              <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.6 }}
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10"
+      >
+        <a
+          className="flex flex-col items-center justify-center transition tracking-wider text-zinc-400"
+          href="#"
+        >
+          scroll to find more
+          <i className="ri-arrow-drop-down-line text-2xl"></i>
+        </a>
+      </motion.div>
           </div>
-        </div>
-
-        {/* Imagen */}
-        <div>
-          <Image
-            className="w-full img h-[730px] max-sm:h-[365px] object-cover"
-            src="/hero.webp"
-            alt="Imagen de Emprendedor Exitoso"
-            width={1800}
-            height={730}
-            priority // Carga rápida
-          />
-        </div>
-      </div>
-    </section>
+        </section>
   );
 };
+
+          {/* <div className="w-1/2 flex flex-col justify-center items-end pr-16 max-md:pr-8">
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-right"
+            >
+              De la adversidad <br />
+              <span className="bg-clip-text text-transparent bg-gradient-to-l from-white to-slate-400">
+                al éxito
+              </span>
+            </motion.h1>
+    
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="text-2xl md:text-3xl mt-6 text-right"
+            >
+              Mi historia de transformación y crecimiento
+            </motion.h2>
+    
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="text-lg md:text-xl text-zinc-300 mt-4 text-right max-w-lg"
+            >
+              De trabajador en una pizzería a fundador de múltiples negocios
+              exitosos. Descubre cómo convertí mis fracasos en mi mayor fortaleza.
+            </motion.p>
+          </div> */}
+          

@@ -38,10 +38,16 @@ function ScrollSection() {
   return (
     <div className="scroll-section-outer">
 
+
       <div ref={triggerRef} >
-        <div ref={sectionRef} className="scroll-section-inner pt-28 ">
-        <article className="rounded-2xl bg-[url('/joyeria.webp')] w-6xl p-6 max-lg:w-full m-auto flex flex-col gap-2 max-lg:px-4">
-          <h3 className="mb-4 subtitle font-bold tracking-tight text-white max-sm:text-xl text-2xl max-lg:px-2">
+
+      <h2 className="mb-4 mt-12 max-lg:mt-4 tracking-tight max-lg:px-4 text-white max-sm:text-3xl text-4xl lg:w-1/2 m-auto max-xl:w-full max-md:px-2 text-center">
+          Una Vida de Aprendizaje y Superación
+        </h2>
+
+        <div ref={sectionRef} className="scroll-section-inner pt-28 max-lg:pt-20 ">
+        <article className="rounded-2xl  w-6xl p-6 max-lg:w-full m-auto flex flex-col gap-2 max-lg:px-4">
+          <h3 className="mb-4 tracking-tight text-white max-sm:text-xl text-2xl max-lg:px-2">
             Del Sueño a la Realidad
           </h3>
           <p className="text-zinc-300 descp leading-7 max-2xl:px-2 tracking-wider text-balance break-words">
@@ -56,9 +62,9 @@ function ScrollSection() {
           </p>
       
         </article>
-        <article className=" rounded-2xl bg-[url('/bg.webp')] w-6xl p-6 max-lg:w-full m-auto flex flex-col gap-2 max-lg:px-4">
-            <h3 className="mb-3 card-title text-xl  font-semibold text-white tracking-wider max-sm:text-lg">
-              <span className="text-white py-2 px-3 max-md:py-1 max-md:px-2 rounded-full bg-slate-600">1</span>  Renuncia, Fracaso y Renacimiento
+        <article className=" rounded-2xl  w-6xl p-6 max-lg:w-full m-auto flex flex-col gap-2 max-lg:px-4">
+            <h3 className="mb-3  text-xl text-white tracking-wider max-sm:text-lg">
+               Renuncia, Fracaso y Renacimiento
             </h3>
             <p className="text-slate-300 leading-7 tracking-wider mb-2 ">
             Trabajé en una pizzería y, con el apoyo de mi padre, abrí mi propio negocio. Al principio, fue un éxito, pero pronto me di cuenta de que la rutina me consumía. Decidí cerrarla y, como consecuencia, mi padre dejó de apoyarme económicamente. Fue un golpe duro, pero una oportunidad para reinventarme.
@@ -67,9 +73,9 @@ function ScrollSection() {
             Trabajé en ventas con marcas reconocidas como Diesel y Comercializadora Baldini, lo que me llevó a estudiar Negocios Internacionales, costeando mi primer semestre con mis propios ahorros. Luego, conseguí una oportunidad en una empresa aliada a Scotiabank Colpatria, donde escalé rápidamente hasta ser contratado por el banco. La estabilidad era tentadora, pero el deseo de emprender nunca desapareció.
             </p>
           </article>
-          <article className="  rounded-2xl bg-[url('/llamada.webp')] w-6xl p-6 max-lg:w-full m-auto flex flex-col gap-2 max-lg:px-4">
-            <h3 className="mb-3 card-title text-xl  font-semibold text-white tracking-wider max-sm:text-lg">
-              <span className="text-white py-2 px-3 max-md:py-1 max-md:px-2 rounded-full bg-slate-600">2</span> Renuncia, Fracaso y Renacimiento
+          <article className="  rounded-2xl  w-6xl p-6 max-lg:w-full m-auto flex flex-col gap-2 max-lg:px-4">
+            <h3 className="mb-3 text-xl text-white tracking-wider max-sm:text-lg">
+               Renuncia, Fracaso y Renacimiento
             </h3>
             <p className="text-slate-300 leading-7 tracking-wider mb-2 ">
             Fundé una empresa de eventos y logística mientras trabajaba en el banco. Conseguí contratos importantes, incluso con la misma empresa donde trabajaba. Pero llegó un punto en el que tuve que elegir: estabilidad o independencia. Decidí renunciar.
@@ -81,9 +87,9 @@ function ScrollSection() {
             Pero rendirse nunca fue una opción. Decidí salir del país y empezar de nuevo, con una mentalidad renovada y enfocada en la estrategia.
             </p>
           </article>
-          <article className=" rounded-2xl bg-[url('/chico.webp')]  w-6xl p-6 max-lg:w-full m-auto flex flex-col gap-4 max-lg:px-4">
-            <h3 className="mb-3 card-title text-xl  font-semibold text-white tracking-wider max-sm:text-lg">
-              <span className="text-white py-2 px-3 max-md:py-1 max-md:px-2 rounded-full bg-slate-600">3</span> Construyendo un Imperio
+          <article className=" rounded-2xl ]  w-6xl p-6 max-lg:w-full m-auto flex flex-col gap-4 max-lg:px-4">
+            <h3 className="mb-3  text-xl   text-white tracking-wider max-sm:text-lg">
+              Construyendo un Imperio
             </h3>
             <p className="text-slate-300 leading-7 tracking-wider mb-2 ">
             Aprendí que el éxito no solo es cuestión de pasión, sino de estrategia, disciplina y visión a largo plazo.

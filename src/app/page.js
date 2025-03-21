@@ -10,6 +10,7 @@ import Lenis from "@studio-freight/lenis";
 import { useEffect } from "react";
 import { Hero } from "./sections/Hero";
 import ScrollSection from "./components/ScrollSection";
+import { PreCta } from "./sections/PreCta";
 
 
 export default function Home() {
@@ -44,8 +45,8 @@ export default function Home() {
       </Intro>
       <History/>   
       <Barbershop/>
-
       <Joyeria/>
+      <PreCta/>
       <Cta/>
       <Footer/>
     </main>
