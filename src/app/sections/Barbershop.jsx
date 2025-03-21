@@ -10,7 +10,7 @@ export const Barbershop = () => {
               transition={{ duration: 0.8 }}
               className="px-4 py-10 tracking-tight text-white text-xl "
             >
-              Joyería Exclusiva
+             Mis negocios
             </motion.h2>
       <div className="flex gap-20  max-md:gap-12 max-lg:flex-col max-lg:container max-w-7xl  max-xl:px-4 mx-auto justify-between max-lg:gap-8">
         <div className=" epigrafe basis-6/12 pb-3">
