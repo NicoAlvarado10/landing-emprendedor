@@ -45,7 +45,7 @@ function ScrollSection() {
           Una Vida de Aprendizaje y Superación
         </h2>
 
-        <div ref={sectionRef} className="scroll-section-inner pt-28 max-lg:pt-20 ">
+        <div ref={sectionRef} className="scroll-section-inner pt-12 max-lg:pt-20 ">
         <article className="rounded-2xl  w-6xl p-6 max-lg:w-full m-auto flex flex-col gap-2 max-lg:px-4">
           <h3 className="mb-4 tracking-tight text-white max-sm:text-xl text-2xl max-lg:px-2">
             Del Sueño a la Realidad
