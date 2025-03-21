@@ -8,7 +8,7 @@ export const Barbershop = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="px-4 py-10 tracking-tight text-white text-xl "
+              className="px-4 py-10 tracking-tight text-white text-xl max-w-7xl mx-auto "
             >
              Mis negocios
             </motion.h2>
