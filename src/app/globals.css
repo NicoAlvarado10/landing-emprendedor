@@ -9,23 +9,31 @@
 }
 @media (min-width:1024px ){
           
-  .joya{
-    mask-image: linear-gradient(to left, #1d293d  80% ,transparent);
+  .hero{
+    mask-image: linear-gradient(to left, black 80% ,transparent);
 }
 
   
   
 }
-@media (min-width:1024px ){
-  .image{
-     mask-image: linear-gradient(to left, #1447e6 80% ,transparent);
- }  
-}
 
+
+.scroll{
+  background-color: #1e1e1e;
+}
+.oscuro{
+  background-color: #101010;
+}
 .copy{
   border-top: 1px solid #909090;
 }
+.epigrafe{
+  background-color: #1a1a1a;
 
+}
+.correo{
+  color: #B8EC4C;
+}
 
 
 .scroll-section-outer {
@@ -38,13 +46,14 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: relative;
+  gap: 1rem;
 }
 
 .scroll-section-inner article {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 400px;
   transition: 0.3s ;
 }
 @media (max-width:760px ){
@@ -53,22 +62,3 @@
     }
 }
 
-.scroll-section-inner article > h3 > p, .lista {
-  opacity: 0;
-}
-.scroll-section-inner:hover article {
-  opacity: 1;
-  background-color: rgba(0, 0, 0, 0.7); /* Oscurece la imagen */
-  background-blend-mode: multiply; /* Mezcla el color con la imagen */
-}
-
-.scroll-section-inner:hover article h3{
-  opacity: 1;
-}
-
-.scroll-section-inner:hover article p{
-  opacity: 1;
-}
-.scroll-section-inner:hover .lista{
-  opacity: 1;
-}
