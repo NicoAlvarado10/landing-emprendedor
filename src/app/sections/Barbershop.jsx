@@ -4,6 +4,7 @@ import barberImg from "../../../public/barber.webp";
 export const Barbershop = () => {
   return (
     <section className="text-white w-full py-16 oscuro">
+        <h2 className="text-white text-xl px-4 py-10">Mis negocios</h2>     
       <div className="flex gap-20  max-md:gap-12 max-lg:flex-col max-lg:container max-w-7xl  max-xl:px-4 mx-auto justify-between max-lg:gap-8">
         <div className=" epigrafe basis-6/12 pb-3">
           <img
@@ -30,7 +31,7 @@ export const Barbershop = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-2xl max-sm:text-xltext-white tracking-tight mb-3"
+              className="text-2xl max-sm:text-xl text-white tracking-tight mb-3"
             >
               Donde el estilo y la experiencia se encuentran
             </motion.h3>
@@ -38,7 +39,7 @@ export const Barbershop = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="mb-6  text-lg max-sm:text-base  md:text-xl"
+              className="mb-6 text-zinc-300 text-lg max-sm:text-base  md:text-xl"
             >
               Un espacio premium diseñado para quienes buscan más que un simple corte de cabello. Servicio de barbería de alto nivel con barberos expertos. 
               Ambiente exclusivo con una experiencia completa de lujo.

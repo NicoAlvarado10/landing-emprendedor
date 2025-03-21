@@ -95,7 +95,7 @@ export default function Content() {
         </div>
 
         </div>
-        <p className="w-full copy py-7 border-t border-zinc-400 text-center tracking-wider">© 2025 Todos los derechos reservados.</p>
+        <p className="w-full copy py-7 border-t border-zinc-400 text-center tracking-wider">Copyright © 2025</p>
         </footer>
  
    

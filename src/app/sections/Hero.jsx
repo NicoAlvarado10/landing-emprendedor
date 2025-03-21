@@ -65,36 +65,4 @@ export const Hero = () => {
   );
 };
 
-          {/* <div className="w-1/2 flex flex-col justify-center items-end pr-16 max-md:pr-8">
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-right"
-            >
-              De la adversidad <br />
-              <span className="bg-clip-text text-transparent bg-gradient-to-l from-white to-slate-400">
-                al éxito
-              </span>
-            </motion.h1>
-    
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-2xl md:text-3xl mt-6 text-right"
-            >
-              Mi historia de transformación y crecimiento
-            </motion.h2>
-    
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-lg md:text-xl text-zinc-300 mt-4 text-right max-w-lg"
-            >
-              De trabajador en una pizzería a fundador de múltiples negocios
-              exitosos. Descubre cómo convertí mis fracasos en mi mayor fortaleza.
-            </motion.p>
-          </div> */}
-          
+       

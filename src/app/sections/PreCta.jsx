@@ -33,7 +33,7 @@ export const PreCta = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className=" text-lg max-sm:text-base  md:text-xl"
+              className=" text-lg max-sm:text-base text-zinc-300 md:text-xl"
             >
               He recorrido un camino lleno de desafíos y aprendizajes, y ahora quiero compartir mis estrategias contigo. Ya sea que estés buscando inspiración, oportunidades de negocio o una nueva visión para tu futuro, este es el momento de actuar.
               Conéctate conmigo y transformemos juntos tu historia.
@@ -51,7 +51,7 @@ export const PreCta = () => {
               className="epigrafe hover:scale-105 transition duration-150 tracking-wider text-white py-3 px-6 rounded-md xl:text-xl max-sm:text-sm max-lg:text-lg "
               href="#"
             >
-              Reserva tu experiencia ahora
+              Hablemos de negocios
             </a>
           </motion.div>
         </div>

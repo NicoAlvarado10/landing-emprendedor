@@ -37,7 +37,7 @@ export const Cta = () => {
               className="bg-zinc-800 xl:text-xl hover:scale-105 transition duration-150 max-sm:text-base max-lg:text-lg text-white py-3 px-6 rounded-md tracking-wider"
               href="#"
             >
-              <i className="ri-phone-line text-xl"></i> Contact Me
+              Contact Me
             </a>
           </motion.div>
         </div>

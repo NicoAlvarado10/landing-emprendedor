@@ -66,7 +66,7 @@ function ScrollSection() {
             <h3 className="mb-3  text-xl text-white tracking-wider max-sm:text-lg">
                Renuncia, Fracaso y Renacimiento
             </h3>
-            <p className="text-slate-300 leading-7 tracking-wider mb-2 ">
+            <p className="text-zinc-300 leading-7 tracking-wider mb-2 ">
             Trabajé en una pizzería y, con el apoyo de mi padre, abrí mi propio negocio. Al principio, fue un éxito, pero pronto me di cuenta de que la rutina me consumía. Decidí cerrarla y, como consecuencia, mi padre dejó de apoyarme económicamente. Fue un golpe duro, pero una oportunidad para reinventarme.
             </p>
             <p className="text-zinc-300 leading-7 tracking-wider">
@@ -77,7 +77,7 @@ function ScrollSection() {
             <h3 className="mb-3 text-xl text-white tracking-wider max-sm:text-lg">
                Renuncia, Fracaso y Renacimiento
             </h3>
-            <p className="text-slate-300 leading-7 tracking-wider mb-2 ">
+            <p className="text-zinc-300 leading-7 tracking-wider mb-2 ">
             Fundé una empresa de eventos y logística mientras trabajaba en el banco. Conseguí contratos importantes, incluso con la misma empresa donde trabajaba. Pero llegó un punto en el que tuve que elegir: estabilidad o independencia. Decidí renunciar.
             </p>
             <p className="text-zinc-300 leading-7 tracking-wider ">
@@ -91,7 +91,7 @@ function ScrollSection() {
             <h3 className="mb-3  text-xl   text-white tracking-wider max-sm:text-lg">
               Construyendo un Imperio
             </h3>
-            <p className="text-slate-300 leading-7 tracking-wider mb-2 ">
+            <p className="text-zinc-300 leading-7 tracking-wider mb-2 ">
             Aprendí que el éxito no solo es cuestión de pasión, sino de estrategia, disciplina y visión a largo plazo.
             </p>
             <p className="text-zinc-300 leading-7 tracking-wider ">
