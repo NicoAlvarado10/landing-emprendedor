@@ -38,14 +38,15 @@
 
 .scroll-section-outer {
   overflow: hidden;
+
 }
 
 .scroll-section-inner {
 
   width: 400vw;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  position: relative;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
   gap: 1rem;
 }
 
@@ -54,10 +55,18 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 400px;
-  transition: 0.3s ;
+  transition: 0.3s;
 }
+
+
+
 @media (max-width:760px ){
     .scroll-section-inner article{
+      height: 100%;
+      
+    }
+    .scroll-section-outer {
+      overflow: hidden;
       height: 100%;
     }
 }

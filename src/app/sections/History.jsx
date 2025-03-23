@@ -2,9 +2,9 @@ import ScrollSection from "../components/ScrollSection";
 
 export const History = () => {
   return (
-    <section className=" py-8 md:py-24 scroll">
+    <section className="pb-40 scroll ">
       <div>
-        
+
          <ScrollSection/>
        
       </div>

@@ -11,7 +11,7 @@ export const PreCta = () => {
           <img
             className=" w-full  object-cover aspect-square"
             src={preCtaImg.src}
-            alt="Imagen de Barbershop"
+            alt="Imagen de Emprendedor Exitoso"
           />
           <p className="text-xl text-white px-3 pt-3 pb-2">Jacob Hofstadter</p>
           <a className="text-zinc-300 cursor-pointer px-3 underline

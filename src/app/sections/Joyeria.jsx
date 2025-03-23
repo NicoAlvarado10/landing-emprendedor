@@ -84,7 +84,7 @@ export const Joyeria = () => {
           <img
             className=" w-full  object-cover aspect-square"
             src={joyeriaImg.src}
-            alt="Imagen de Barbershop"
+            alt="Imagen de Joyeria"
           />
           <p className="text-xl text-white px-3 pt-3 pb-2">Joyería Exclusiva</p>
           <span className="text-zinc-300 px-3

@@ -1,35 +1,41 @@
-import { motion } from "framer-motion";
 import heroImg from "../../../public/hero.webp"
-export const Hero = () => {
-  return (
-    <section className="text-white w-full  bg-black h-full
-    ">
-          <div className="flex flex-row-reverse max-lg:grid-cols-1  max-lg:flex-col max-w-[1600px]  mx-auto justify-between ">
-     
-            
-
-            <div className=" basis-6/12 flex flex-col bg-black p-10 max-lg:p-4">
-            <motion.h1
+import {motion} from "framer-motion"
+export const Ero = () => {
+    return (
+      <section className="  flex max-xl:flex-col-reverse pt-10  justify-center max-w-[1600px] mx-auto  relative bg-black">
+        {/* Contenedor de la imagen */}
+        <div className=" 2xl:basis-6/12 w-full h-full relative z-10 ">
+          <img 
+            src={heroImg.src}
+            alt="Historia de éxito"
+            className="img h-full  mx-auto object-cover"
+          />
+        </div>
+  
+        {/* Contenido superpuesto */}
+        <div className="relative z-20  xl:-ml-40 py-20  text-white">
+          <div className="flex flex-col gap-4 max-xl:px-4">
+          <motion.h1
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-4xl md:text-6xl lg:text-8xl font-bold leading-tight max-lg:text-center"
+              className="text-4xl md:text-6xl lg:text-8xl font-bold leading-tight max-xl:text-center"
             >
               De la adversidad <br />
             </motion.h1>
-              <motion.span
+            <motion.span
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="bg-clip-text text-transparent bg-gradient-to-l from-white to-slate-400 text-4xl md:text-6xl lg:text-8xl font-bold leading-tight max-lg:text-center">
+              className=" text-4xl md:text-6xl lg:text-8xl font-bold text-center max-sm:px-0 leading-tight px-40 ">
                 al éxito
               </motion.span>
-    
-            <motion.h2
+            
+              <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-2xl md:text-3xl max-lg:text-center mt-6 "
+              className="text-2xl md:text-5xl max-xl:text-center  mt-8 "
             >
               Mi historia de transformación y crecimiento
             </motion.h2>
@@ -38,23 +44,19 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-lg md:text-xl text-zinc-300 mt-4  lg:max-w-lg max-lg:w-full max-lg:text-center"
+              className="text-lg md:text-xl text-white  max-lg:w-full max-xl:text-center xl:pr-10 "
             >
               De trabajador en una pizzería a fundador de múltiples negocios
               exitosos. Descubre cómo convertí mis fracasos en mi mayor fortaleza.
             </motion.p>
-          </div> 
-              
-          <img
-                className="img basis-6/12 w-full h-screen object-cover oscuro"
-                src={heroImg.src}
-                alt="Imagen de Barbershop"
-              />
-              <motion.div
+  
+          </div>
+        </div>
+            <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10"
+        className="absolute bottom-2 left-1/2 -translate-x-1/2 z-10"
       >
         <a
           className="flex flex-col items-center justify-center transition tracking-wider text-zinc-400"
@@ -63,10 +65,8 @@ export const Hero = () => {
           scroll to find more
           <i className="ri-arrow-drop-down-line text-2xl"></i>
         </a>
-      </motion.div>
-          </div>
-        </section>
-  );
-};
-
-       
+               </motion.div>
+      </section>
+    );
+  };
+  

@@ -3,7 +3,7 @@ import barberImg from "../../../public/barber.webp";
 
 export const Barbershop = () => {
   return (
-    <section className="text-white w-full py-16 oscuro">
+    <section className="text-white w-full py-16 oscuro ">
         <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
