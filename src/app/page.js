@@ -8,9 +8,9 @@ import { Joyeria } from "./sections/Joyeria";
 import 'remixicon/fonts/remixicon.css'
 import Lenis from "@studio-freight/lenis";
 import { useEffect } from "react";
-
-import { PreCta } from "./sections/PreCta";
 import { Hero } from "./sections/Hero";
+import { PreCta } from "./sections/PreCta";
+
 
 export default function Home() {
   
@@ -41,7 +41,6 @@ export default function Home() {
     <main className="bg-black">
       <Intro>
       <Hero/>
-        
       </Intro>
       <History/>   
       <Barbershop/>

@@ -1,6 +1,6 @@
 import heroImg from "../../../public/hero.webp"
 import {motion} from "framer-motion"
-export const Ero = () => {
+export const Hero = () => {
     return (
       <section className="  flex max-xl:flex-col-reverse pt-10  justify-center max-w-[1600px] mx-auto  relative bg-black">
         {/* Contenedor de la imagen */}
