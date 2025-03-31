@@ -1,4 +1,4 @@
-import joyeriaImg from '../../../public/joyeria.webp';
+import joyeriaImg from '../../../public/joyeria.jpg';
 import { motion } from 'framer-motion';
 
 

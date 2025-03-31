@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import barberImg from "../../../public/barber.webp";
+import barberImg from "../../../public/barber.jpg";
 
 export const Barbershop = () => {
   return (

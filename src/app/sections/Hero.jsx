@@ -1,20 +1,20 @@
-import heroImg from "../../../public/hero.webp"
+import heroImg from "../../../public/hero.jpg"
 import {motion} from "framer-motion"
 export const Hero = () => {
     return (
-      <section className="  flex max-xl:flex-col-reverse pt-10  justify-center max-w-[1600px] mx-auto  relative bg-black">
+      <section className=" h-screen max-md:h-auto  flex max-xl:flex-col-reverse pt-10  justify-center max-w-[1600px] mx-auto  relative bg-black">
         {/* Contenedor de la imagen */}
-        <div className=" 2xl:basis-6/12 w-full h-full relative z-10 ">
+        <div className=" 2xl:basis-6/12 w-full h-full max-sm:h-auto relative z-10 ">
           <img 
             src={heroImg.src}
             alt="Historia de éxito"
-            className="img h-full  mx-auto object-cover"
+            className="img h-full max-md:h-4/12 max-md:w-full  mx-auto object-cover"
           />
         </div>
   
         {/* Contenido superpuesto */}
-        <div className="relative z-20  xl:-ml-40 py-20  text-white">
-          <div className="flex flex-col gap-4 max-xl:px-4">
+        <div className="relative z-20  xl:-ml-40   text-white">
+          <div className=" hero flex flex-col gap-4 max-xl:px-4">
           <motion.h1
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -27,7 +27,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className=" text-4xl md:text-6xl lg:text-8xl font-bold text-center max-sm:px-0 leading-tight px-40 ">
+              className=" text-4xl md:text-6xl lg:text-8xl font-bold text-center  max-sm:px-0 leading-tight px-40  ">
                 al éxito
               </motion.span>
             
@@ -44,7 +44,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-lg md:text-xl text-white  max-lg:w-full max-xl:text-center xl:pr-10 "
+              className="text-lg md:text-xl text-white  max-lg:w-full max-xl:text-center xl:pr-10  max-sm:px-4"
             >
               De trabajador en una pizzería a fundador de múltiples negocios
               exitosos. Descubre cómo convertí mis fracasos en mi mayor fortaleza.

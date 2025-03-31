@@ -1,4 +1,4 @@
-import preCtaImg from '../../../public/cta.webp';
+import preCtaImg from '../../../public/cta.jpg';
 import { motion } from 'framer-motion';
 
 

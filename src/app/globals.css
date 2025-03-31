@@ -7,17 +7,17 @@
   
 
 }
-@media (min-width:1024px ){
-          
-  .hero{
-    mask-image: linear-gradient(to left, black 80% ,transparent);
-}
+
 
   
-  
+.hero{
+  padding: 5rem 0;
 }
-
-
+@media (min-width:1550px ){
+    .hero{
+      padding: 12rem 0;
+    }
+}
 .scroll{
   background-color: #1e1e1e;
 }
