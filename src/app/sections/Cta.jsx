@@ -22,7 +22,7 @@ export const Cta = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-4xl w-9/12 mx-auto text-center text-zinc-400 max-sm:text-lg max-md:text-lg tracking-wider mb-3">
+            className="text-4xl w-9/12 mx-auto text-center text-zinc-400 max-sm:text-xl max-md:text-3xl tracking-wider mb-3">
               The way you're going to move is quite dictated by your shoes.
             </motion.p>
            

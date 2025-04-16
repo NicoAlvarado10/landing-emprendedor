@@ -23,8 +23,8 @@ export default function Content() {
          whileInView={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.8, delay:0.4 }}
         className="flex flex-col gap-3">
-            <h3 className="text-2xl max-md:text-xl text-white tracking-tight">Sobre Mí</h3>
-            <p className="tracking-wider">
+            <h3 className="text-2xl text-white tracking-tight">Sobre Mí</h3>
+            <p className="tracking-wider text-lg">
             Emprendedor, visionario y apasionado por crear oportunidades. Mi misión es inspirar a otros a alcanzar su máximo potencial.
             </p>
         </motion.div>
@@ -34,8 +34,8 @@ export default function Content() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
         className="flex flex-col gap-3">
-            <h3 className="text-2xl text-white tracking-tight max-md:text-xl">Mis Negocios</h3>
-            <ul className="flex flex-col gap-2">
+            <h3 className="text-2xl text-white tracking-tight ">Mis Negocios</h3>
+            <ul className="flex flex-col gap-2 text-lg">
             <li>
                 <a className="cursor-pointer tracking-wider hover:text-white transition duration-150" href="#">
                 The Empire Barbershop
@@ -64,8 +64,8 @@ export default function Content() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
         className="flex flex-col gap-3">
-            <h3 className="text-2xl text-white max-md:text-xl">Contacto</h3>
-            <p className="tracking-wider">
+            <h3 className="text-2xl text-white ">Contacto</h3>
+            <p className="tracking-wider text-lg">
             ¿Interesado en colaborar o conocer más sobre mis proyectos? No dudes en contactarme.
             </p>
             <ul className="flex items-center gap-3">

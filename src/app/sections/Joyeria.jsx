@@ -12,7 +12,7 @@ export const Joyeria = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="mb-4 tracking-tight text-white text-4xl max-sm:text-3xl"
+              className="mb-4 tracking-tight text-white text-4xl "
             >
               Joyería Exclusiva
             </motion.h2>
@@ -21,7 +21,7 @@ export const Joyeria = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-2xl max-sm:text-xl text-white tracking-tight negocio-subtitle mb-3"
+              className="text-2xl  text-white tracking-tight negocio-subtitle mb-3"
             >
               Brillando en el mundo de la joyería y la exportación de oro y diamantes
             </motion.h3>
@@ -31,7 +31,7 @@ export const Joyeria = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="mt-3 flex flex-col gap-3 px-3"
+              className="mt-3 flex flex-col text-lg gap-3 px-3"
             >
               <li className=" list-disc">
                 <span className="text-zinc-300 tracking-wider">
@@ -73,7 +73,7 @@ export const Joyeria = () => {
             className="my-10 flex items-center"
           >
             <a
-              className="epigrafe hover:scale-105 transition duration-150 tracking-wider text-white py-3 px-6 rounded-md xl:text-xl max-sm:text-sm max-lg:text-lg "
+              className="epigrafe hover:scale-105 transition duration-150 tracking-wider text-white py-3 px-6 rounded-md xl:text-xl max-sm:text-base max-lg:text-lg "
               href="#"
             >
               Reserva tu experiencia ahora

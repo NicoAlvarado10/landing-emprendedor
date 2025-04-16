@@ -27,7 +27,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className=" text-4xl md:text-6xl lg:text-8xl font-bold text-center  max-sm:px-0 leading-tight px-40  ">
+              className=" text-5xl md:text-6xl lg:text-8xl font-bold text-center  max-sm:px-0 leading-tight px-40  ">
                 al éxito
               </motion.span>
             
@@ -35,7 +35,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-2xl md:text-5xl max-xl:text-center  mt-8 "
+              className="text-3xl md:text-5xl max-xl:text-center max-sm:px-2 mt-8 "
             >
               Mi historia de transformación y crecimiento
             </motion.h2>
@@ -44,7 +44,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-lg md:text-xl text-white  max-lg:w-full max-xl:text-center xl:pr-10  max-sm:px-4"
+              className="text-xl  text-white  max-lg:w-full max-xl:text-center xl:pr-10  max-sm:px-4"
             >
               De trabajador en una pizzería a fundador de múltiples negocios
               exitosos. Descubre cómo convertí mis fracasos en mi mayor fortaleza.

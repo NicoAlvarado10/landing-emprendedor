@@ -8,7 +8,7 @@ export const Barbershop = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="px-4 py-10 tracking-tight text-white text-xl max-w-7xl mx-auto "
+              className="px-4 py-10 tracking-tight text-white text-2xl max-w-7xl mx-auto "
             >
              Mis negocios
             </motion.h2>
@@ -29,7 +29,7 @@ export const Barbershop = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="mb-4 tracking-tight text-white text-4xl max-sm:text-3xl"
+              className="mb-4 tracking-tight text-white text-4xl "
             >
               The Empire Barbershop
             </motion.h2>
@@ -38,7 +38,7 @@ export const Barbershop = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-2xl max-sm:text-xl text-white tracking-tight mb-3"
+              className="text-2xl  text-white tracking-tight mb-3"
             >
               Donde el estilo y la experiencia se encuentran
             </motion.h3>
@@ -46,7 +46,7 @@ export const Barbershop = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="mb-6 text-zinc-300 text-lg max-sm:text-base  md:text-xl"
+              className="mb-6 text-zinc-300 text-lg   md:text-xl"
             >
               Un espacio premium diseñado para quienes buscan más que un simple corte de cabello. Servicio de barbería de alto nivel con barberos expertos. 
               Ambiente exclusivo con una experiencia completa de lujo.
@@ -55,7 +55,7 @@ export const Barbershop = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="text-xl max-sm:text-lg text-white tracking-wider negocio-descp"
+              className="text-xl max-sm:text-xl text-white tracking-wider negocio-descp"
             >
               Diferenciadores:
             </motion.h4>
@@ -63,7 +63,7 @@ export const Barbershop = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="mt-3 flex flex-col gap-3 px-3"
+              className="mt-3 flex flex-col gap-3 px-3 text-lg"
             >
               <li className=" list-disc">
                 <span className="text-zinc-300 tracking-wider">
@@ -90,7 +90,7 @@ export const Barbershop = () => {
             className="my-10 flex items-center"
           >
             <a
-              className="epigrafe hover:scale-105 transition duration-150 tracking-wider hover:bg-slate-300 text-white py-3 px-6 rounded-md xl:text-xl max-sm:text-sm max-lg:text-lg"
+              className="epigrafe hover:scale-105 transition duration-150 tracking-wider hover:bg-slate-300 text-white py-3 px-6 rounded-md xl:text-xl max-sm:text-base max-lg:text-lg"
               href="#"
             >
               Reserva tu experiencia ahora

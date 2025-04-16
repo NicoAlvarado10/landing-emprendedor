@@ -41,14 +41,14 @@ function ScrollSection() {
 
       <div className="content-scroll" ref={triggerRef} >
         
-      <h2 className="mb-4 mt-12 max-lg:mt-4 tracking-tight max-lg:px-4 text-white text-2xl md:text-5xl max-xl:text-center  m-auto max-xl:w-full max-md:px-2 text-center">
+      <h2 className="mb-4 mt-12 max-lg:mt-4 tracking-tight max-lg:px-4 text-white text-3xl md:text-5xl max-xl:text-center  m-auto max-xl:w-full max-md:px-2 text-center">
           Una Vida de Aprendizaje y Superación
         </h2>
 
 
         <div ref={sectionRef} className="scroll-section-inner mt-40  max-md:mt-0">
         <article className="rounded-2xl  max-w-7xl p-6 max-lg:w-full m-auto flex flex-col gap-2 ">
-          <h3 className="mb-4 text-4xl  tracking-tight text-white max-sm:text-xl  max-lg:px-2">
+          <h3 className="mb-4 text-4xl  tracking-tight text-white max-sm:text-2xl  max-lg:px-2">
             Del Sueño a la Realidad
           </h3>
           <p className="text-zinc-300 descp leading-7 max-2xl:px-2 tracking-wider text-xl max-sm:text-base  break-words">
